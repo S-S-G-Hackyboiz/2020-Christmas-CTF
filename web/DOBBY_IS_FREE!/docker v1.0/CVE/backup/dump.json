@@ -1,0 +1,41 @@
+[
+  {
+    "model": "vul.blog",
+    "pk": 1,
+    "fields": {
+      "title": "DOBBY",
+      "content": "IS_FREE!"
+    }
+  },
+  {
+    "model": "vul.blog",
+    "pk": 2,
+    "fields": {
+      "title": "I LOVE",
+      "content": "DJANGO"
+    }
+  },
+  {
+    "model": "vul.blog",
+    "pk": 3,
+    "fields": {
+      "title": "Hello",
+      "content": "SOLO"
+    }
+  },
+  {
+    "model": "vul.blog",
+    "pk": 4,
+    "fields": {
+      "title": "Couple",
+      "content": "GOTO HELL"
+    }
+  },
+  {
+    "model": "vul.flag",
+    "pk": 1,
+    "fields": {
+      "flag": "D033Y_!S_L0N3LY"
+    }
+  }
+]

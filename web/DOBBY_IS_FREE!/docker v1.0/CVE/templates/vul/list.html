@@ -1,0 +1,19 @@
+<h2>Dobby's Secret Diary</h2>
+<table>
+    <thead>
+        <th>id</th>
+        <th>title</th>
+        <th>content</th>
+    </thead>
+    <tbody>
+    {% for i in posts %}
+    <tr>
+        <td><a href="/post/{{ i.id }}/?content={{i.content}}">{{i.id}}</a></td>
+        <td>{{ i.title }}</td>
+        <td>{{ i.content }}</td>
+    </tr>
+    {% endfor %}
+
+    </tbody>
+</table>
+

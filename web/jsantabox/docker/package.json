@@ -1,0 +1,29 @@
+{
+  "name": "jsantabox_release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjbae/jsantabox.git"
+  },
+  "author": "gjbae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjbae/jsantabox/issues"
+  },
+  "homepage": "https://github.com/gjbae/jsantabox#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "escodegen": "^2.0.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.2.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}

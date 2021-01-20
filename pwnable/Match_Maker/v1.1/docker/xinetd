@@ -1,0 +1,12 @@
+service [match_maker]
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	protocol = tcp
+	user = matchmaker
+	wait = no
+	server = /home/matchmaker/match
+	type = UNLISTED
+	port = 3000
+}
